@@ -1,0 +1,85 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles for body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.myself {
+  display: flex; /* Use flexbox to align items horizontally */
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+  padding: 20px;
+  margin-bottom: 20px; /* Add some margin between header and main content */
+  width: 27rem;
+  height: 16rem;
+  margin-left: 34rem;
+}
+
+/* Main Content Styles */
+.main-content {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #111; /* Dark background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Darker shadow effect */
+}
+
+.main-content h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.main-content p {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.main-content h4 {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 0 10px;
+}
+
+
+.main-content button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-left: 4rem;
+}
+
+.button-email {
+  width: 85px;
+}
+
+/* Footer Styles */
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-logos img {
+  width: 30px;
+  margin: 0 5px;
+}
